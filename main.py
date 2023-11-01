@@ -11,10 +11,10 @@ mot_tracker = Sort()
 
 # load models
 coco_model = YOLO('yolov8n.pt')
-license_plate_detector = YOLO('./models/license_plate_detector.pt')
+license_plate_detector = YOLO('best.pt')
 
 # load video
-cap = cv2.VideoCapture('./sample.mp4')
+cap = cv2.VideoCapture('Video/test.mp4')
 
 # car, motorbike, bus, truck
 vehicles = [2, 3, 5, 7]     
