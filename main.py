@@ -16,7 +16,8 @@ license_plate_detector = YOLO('./models/license_plate_detector.pt')
 # load video
 cap = cv2.VideoCapture('./sample.mp4')
 
-vehicles = [2, 3, 5, 7]
+# car, motorbike, bus, truck
+vehicles = [2, 3, 5, 7]     
 
 # read frames
 frame_nmr = -1
